@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The FSM package provides a simple class that implements a Finite State
 Machine.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Pakiet FSM dostarcza prost± klasê implementuj±c± automat skoñczony
