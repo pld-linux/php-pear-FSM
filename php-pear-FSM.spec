@@ -1,4 +1,4 @@
-%include        /usr/lib/rpm/macros.php
+%include	/usr/lib/rpm/macros.php
 %define		_class		FSM
 %define		_status		stable
 
