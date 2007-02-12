@@ -4,7 +4,7 @@
 
 %define		_pearname	%{_class}
 Summary:	%{_pearname} - Finite State Machine
-Summary(pl):	%{_pearname} - automat skoñczony
+Summary(pl.UTF-8):   %{_pearname} - automat skoÅ„czony
 Name:		php-pear-%{_pearname}
 Version:	1.2.4
 Release:	1
@@ -27,15 +27,15 @@ Machine.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet FSM dostarcza prost± klasê implementuj±c± automat skoñczony
-(automat o skoñczonej liczbie stanów).
+%description -l pl.UTF-8
+Pakiet FSM dostarcza prostÄ… klasÄ™ implementujÄ…cÄ… automat skoÅ„czony
+(automat o skoÅ„czonej liczbie stanÃ³w).
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -44,7 +44,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
