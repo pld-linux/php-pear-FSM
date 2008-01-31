@@ -6,7 +6,7 @@ Summary:	%{_pearname} - Finite State Machine
 Summary(pl.UTF-8):	%{_pearname} - automat skończony
 Name:		php-pear-%{_pearname}
 Version:	1.2.5
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
