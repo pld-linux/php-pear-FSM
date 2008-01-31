@@ -1,18 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		FSM
 %define		_status		stable
-
 %define		_pearname	%{_class}
 Summary:	%{_pearname} - Finite State Machine
 Summary(pl.UTF-8):	%{_pearname} - automat skończony
 Name:		php-pear-%{_pearname}
-Version:	1.2.4
+Version:	1.2.5
 Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	43e01067cfd468608b346553a8db923f
+# Source0-md5:	d7c42cdc96b07c743cdf51cbdd8b6fb2
 URL:		http://pear.php.net/package/FSM/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
