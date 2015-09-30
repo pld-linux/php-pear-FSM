@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - Finite State Machine
 Summary(pl.UTF-8):	%{_pearname} - automat skończony
 Name:		php-pear-%{_pearname}
-Version:	1.3.1
-Release:	2
+Version:	1.4.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c777d17e064ea7fbdc3da8306bb8e654
+# Source0-md5:	cad02549d7bd5f4c58f789af3da8cb9a
 URL:		http://pear.php.net/package/FSM/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
