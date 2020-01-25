@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	FSM
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Finite State Machine
 Summary(pl.UTF-8):	%{_pearname} - automat skończony
 Name:		php-pear-%{_pearname}
